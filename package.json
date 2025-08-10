@@ -1,0 +1,21 @@
+{
+  "name": "libtickit",
+  "version": "1.0.0",
+  "description": "README",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rfloarea/libtickIT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rfloarea/libtickIT/issues"
+  },
+  "homepage": "https://github.com/rfloarea/libtickIT#readme"
+}
