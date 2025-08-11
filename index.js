@@ -13,3 +13,22 @@ app.listen(port, () => {
 
 mongoose.connect('mongodb://127.0.0.1:27017/libtickit')
 	.then(() => console.log('Connected to database'));
+
+const ticketSchema = new mongoose.Schema({
+	name: String,
+	email: String,
+	body: String,
+},
+{
+	timestamps:true
+});
+
+const Ticket = mongoose.model('Ticket', ticketSchema);
+
+const testTicket = new Ticket({
+	name: 'rowen floarea',
+	email: 'rowen.floarea@proton.me',
+	body: 'This is a test ticket.'
+});
+
+console.log(testTicket)
